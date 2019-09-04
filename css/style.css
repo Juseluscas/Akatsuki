@@ -5,5 +5,27 @@ body{
                          'section section section aside'
                          'footer footer footer footer';
 grid-template-columns: 25vw 25vw 25vw 25vw;
-grid-template-rows: 8vh 30vh 50vh 10vh;
+grid-template-rows: 8vh 30vh 50vh 8vh;
+margin: 0;
 }
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+section{
+    grid-area: section;
+}
+
