@@ -1,5 +1,6 @@
 body{
     display: grid;
+    cursor: url("../img/kunai\ \(1\).png"), default;
     grid-template-areas: 'nav nav nav nav'
                          'header header header aside'
                          'section section section aside'
@@ -38,11 +39,19 @@ nav a{
 
 nav img {   
     height: 6vh;
+    border-radius: 100px;
+}
+
+nav img:hover{
+    box-shadow: 2px 1px 5px red;
 }
 
 nav a:hover{
     font-size: 20px;
     color: red;
+    cursor: url("../img/kunai\ \(1\).png"), default;
+    box-shadow: 2px 1px 5px red;
+    
 }
 
 section{
