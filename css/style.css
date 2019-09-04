@@ -1,12 +1,13 @@
 body{
     display: grid;
     cursor: url("../img/kunai\ \(1\).png"), default;
+    background-color: gray;
     grid-template-areas: 'nav nav nav nav'
                          'header header header aside'
                          'section section section aside'
                          'footer footer footer footer';
 grid-template-columns: 25vw 25vw 25vw 25vw;
-grid-template-rows: 8vh 30vh 50vh 8vh;
+grid-template-rows: 8vh 100vh 50vh 8vh;
 margin: 0;
 }
 
@@ -20,6 +21,8 @@ footer{
 
 header{
     grid-area: header;
+    background-image: url("../img/akatsuki_stickers_by_fir3h34rt-d8kpogb.png");
+    background-size: cover;
 }
 
 nav{     
@@ -50,7 +53,7 @@ nav a:hover{
     font-size: 20px;
     color: red;
     cursor: url("../img/kunai\ \(1\).png"), default;
-    box-shadow: 2px 1px 5px red;
+    box-shadow: 1px 5px 5px red;
     
 }
 
