@@ -7,13 +7,8 @@ body{
                          'section section section aside'
                          'footer footer footer footer';
 grid-template-columns: 25.2vw 24.5vw 24.5vw 24.5vw;
-grid-template-rows: 8vh 100vh 50vh 8vh;
+grid-template-rows: 8vh 100vh 60vh 10vh;
 margin: 0;
-}
-
-body::-webkit-scrollbar{
-    width: 0px;
-    background: transparent: 
 }
 
 aside{
@@ -78,4 +73,17 @@ aside h2{
 
 aside p{
     padding: 0px 15px;
+    color: black;
+}
+
+section h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+section div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
